@@ -1,0 +1,1 @@
+Wersja tego programu jest już gotowa do wysłania na serwer heroku.

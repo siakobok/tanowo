@@ -32,6 +32,7 @@ class Notes extends React.Component {
     /// pobiera notatki funkcja -- fetchNotes(), axios- biblioteka do pobierania request
     ///  ma dużo fajnych fetcherów pobieramy notatki i łączymy się z API
     ///axios najpierw podajemy typ request np: -get
+    //axios biblioteka do wykonywania rożnych requestów
    async fetchNotes() {
      const res = await instance.get('/notes');
      const notes = res.data;
